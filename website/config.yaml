@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Sean's profile"
+title: " 帝安尼（Diani)"
 theme: "./.."
 relativeURLs: true
 
@@ -87,7 +87,7 @@ params:
   disable_experience: false
   experience:
     - company: "Green Dot Corp"
-      # id: "dgc-principal"   // use this, when you want to change the id(used for navigation)
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
       role: "Principal Software Engineer"
       startdate: Oct 2015
       enddate: present
