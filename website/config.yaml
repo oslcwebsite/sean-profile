@@ -49,7 +49,7 @@ params:
   version: 3
   customCSS: false
 
-  favicon: "/images/fav.png"
+  favicon: "/images/Yunnan.ico"
   description: "Sean Xiao personal portfolio and blog."
 
   # home
@@ -58,12 +58,9 @@ params:
   name: "Sean Xiao"
   namecolor: ffc107
   profession: "Principal Software Engineer"
-  github: "https://github.com"
-  gitlab: "https://gitlab.com"
   linkedin: "https://linkedin.com"
   twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
+  
 
   # Custom social links
   customSocialLinks:
@@ -77,22 +74,22 @@ params:
   descripe_l1_person: "Hi, I'm Sean, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
   descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
   skills:
-    - name: CSS
+    - name: .Net
       percentage: 90
-    - name: Django
+    - name: DB
       percentage: 85
-    - name: Hugo
+    - name: System Design
       percentage: 80
-    - name: React JS
+    - name: Leadership
       percentage: 70
 
   # Experience
   disable_experience: false
   experience:
-    - company: "Google"
-      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
+    - company: "Green Dot Corp"
+      # id: "dgc-principal"   // use this, when you want to change the id(used for navigation)
+      role: "Principal Software Engineer"
+      startdate: Oct 2015
       enddate: present
       featuredpoints:
         - point: Lead backend developer for a product.
