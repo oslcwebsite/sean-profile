@@ -1,10 +1,10 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo-profile"
+title: "Sean's profile"
 theme: "./.."
 relativeURLs: true
 
-googleanalytics: UA-167646412-8
+googleanalytics: UA-xxxxxx-x
 disqusShortname:
 Paginate: 3
 markup:
@@ -44,20 +44,20 @@ Menus:
     #   url: /34545
     #   parent: dropdown
     #   weight: 2
-
+    
 params:
   version: 3
   customCSS: false
 
   favicon: "/images/fav.png"
-  description: "A high performance hugo theme for personal portfolio and blog."
+  description: "Sean Xiao personal portfolio and blog."
 
   # home
   disable_home: false
   profile_image: "/images/profile.png"
-  name: "Example name"
+  name: "Sean Xiao"
   namecolor: ffc107
-  profession: "Profession"
+  profession: "Principal Software Engineer"
   github: "https://github.com"
   gitlab: "https://gitlab.com"
   linkedin: "https://linkedin.com"
@@ -65,16 +65,16 @@ params:
   instagram: "https://instagram.com/"
   facebook: "https://facebook.com"
 
-  #Custom social links
-  # customSocialLinks:
-  #   - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
-  #     url: "https://gohugo.com"
-  #   - fontAwesomeIconName: "fa fa-envelope"
-  #     url: "https://gmail.com"
-  
+  # Custom social links
+  customSocialLinks:
+    - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
+      url: "https://gohugo.com"
+    - fontAwesomeIconName: "fa fa-envelope"
+      url: "https://gmail.com"
+
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+  descripe_l1_person: "Hi, I'm Sean, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
   descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
   skills:
     - name: CSS
